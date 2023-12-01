@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 char firstNonRepeatingCharacter(string str) {
     int f = 0;
     for (int i = 0; i < str.size(); i++) {

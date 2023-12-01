@@ -1,0 +1,31 @@
+You have been given an arrayList 'Arr' consisting of 'N' integers. Your task is to find the majority element in the array. If there is no majority element present, print -1.
+Note:
+A majority element is an element that occurs more than floor('N/2') times int he array.
+
+Sample Input 1:
+2
+5
+2 3 9 2 2
+4
+8 5 1 9 
+Sample Output 1:
+2
+-1
+
+Explanation of Sample Output 1:
+In test case 1, frequencies of occurrences of different elements are:
+
+2 → 3 times
+3 → 1 time
+9 → 1 time
+
+As 2 occurs more than floor(5/2) (i.e. floor(2.5) = 2) times, it is the majority element.
+
+In test case 2, frequencies of occurrences of different elements are:
+
+8 → 1 time
+5 → 1 time
+1 → 1 time
+9 → 1 time
+
+As no element occurs more than floor(4/2) = 2 times. Thus No majority element is present.
